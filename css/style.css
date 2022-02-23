@@ -292,7 +292,7 @@ ul {
   
   width: 30px;
   height: 30px;
-  
+  cursor: pointer;
   border-radius: 50%;
   border: 1px solid rgba(0, 0, 0, 0.1);
   box-sizing: border-box;
@@ -305,11 +305,13 @@ ul {
 .hero-button:hover{
   fill: #2196f3;
 }
-
+  
 .hero-icon {
   display: flex;
   align-items: center;
   justify-content: center;
+  width: 18px;
+  height: 18px;
 
   transition: fill var(--animation);
 }
