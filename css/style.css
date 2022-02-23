@@ -302,7 +302,7 @@ ul {
 
 }
 
-.hero-link:hover{
+.hero-button:hover{
   fill: #2196f3;
 }
 
@@ -325,7 +325,7 @@ ul {
 textarea {
   display: inline-block;
   resize: none;
-  padding-left: 16px;
+  padding: 12px 16px;
   width: 448px;
   height: 120px;
 
@@ -431,7 +431,6 @@ textarea {
 
   color: #FFFFFF;
   background-color: #2196F3;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border: none;
   border-radius: 4px;
   cursor: pointer;
@@ -522,7 +521,6 @@ textarea {
   width: 16px;
   height: 15px;
   border-radius: 2px;
-  background-color: #2196f3;
   fill: #FFFFFF;
 }
 
@@ -579,6 +577,7 @@ textarea {
   padding-left: 16px;
   margin-left: 93px;
 
+  color: rgba(255, 255, 255, 0.6);;
   background-color: transparent;
   border: 1px solid rgba(255, 255, 255, 0.3); 
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
