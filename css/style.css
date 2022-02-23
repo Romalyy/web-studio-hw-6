@@ -257,6 +257,7 @@ ul {
 
   opacity: 1;
   transition: opacity 1000ms cubic-bezier(0.4, 0, 0.2, 1);
+  z-index: 2;
 }
 
 .backdrop.is-hidden {
@@ -296,7 +297,6 @@ ul {
   border-radius: 50%;
   border: 1px solid rgba(0, 0, 0, 0.1);
   box-sizing: border-box;
-  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
   background: #ffffff;
 
 
@@ -335,6 +335,10 @@ textarea {
   box-sizing: border-box;
   border-radius: 4px;
   outline: none;
+}
+
+textarea:focus{
+  border-color: #2196f3;
 }
 
 .form-text{
@@ -503,27 +507,33 @@ textarea {
   appearance: none;
 
   position: absolute;
+
+  
 }
 
 .input-policy:checked ~ .checkbox-icon{
   background-image: url(../icons/icon-check.svg);
   background-color: #2196f3;
   background-size: contain;
-
+  border: #212121;
 } 
 
 .label{
   display: flex;
   align-items: center;
   justify-content: center;
+
 }
 
 .checkbox-icon{
   margin-bottom: 6px;
   width: 16px;
   height: 15px;
+  border: 2px solid #212121;
+
   border-radius: 2px;
   fill: #FFFFFF;
+
 }
 
 .checkbox-icon-1{
